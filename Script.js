@@ -17,7 +17,7 @@ navLinks.forEach((link) => {
     if (targetSection) {
       window.scrollTo({
         top: targetSection.offsetTop - 70, // Adjust for navbar height
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
       // Close mobile menu after clicking a link (if open)
       if (navbar.classList.contains('active')) {
